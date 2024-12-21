@@ -1,1 +1,15 @@
+# programa em python desafio 1
+
+vetor_string = ["POOCHVENA","ZIGZAGOON","DRAGONITE","DRAGONITE","DRAGONITE","POOCHVENA","AURAPLE"]
+vetor_level = ["Lv2","Lv2","Lv5","Lv5","Lv3","lv2"]
+vetor_genero = ["M","F","M","F","F","F","M"]
+
+texto = " Cadastro realizado com sucesso "
+
+vetor_concatenado= [poke + texto for poke in vetor_string]
+
+# impressão dos elementos 
+for elementos in vetor_concatenado:
+  print(elementos)
+
 
